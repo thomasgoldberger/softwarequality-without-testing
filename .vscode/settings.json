@@ -1,0 +1,12 @@
+{
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ],
+    "wordcount_cjk.statusBarTextTemplate": "${cjk} ",
+    "wordcount_cjk.statusBarTooltipTemplate": "\\t\\t${en_words}\\nEnglish Words：\\t\\t${total - whitespace}\\nWhitespace：\\t\\t${total}"
+}
