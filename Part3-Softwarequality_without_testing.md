@@ -135,3 +135,5 @@ And finally, if you learned nothing from the series and will take nothing away f
 ## Summary
 
 To come to an end, developing software has a lot to offer and it’s not all about code and configuration. To generate a good product requires a quality mindset on multiple levels. To say testing is our quality is wrong, and to late to begin with. Each step in a software lifecycle does need its quality assurance implemented in either a methodical or technical way.
+
+
