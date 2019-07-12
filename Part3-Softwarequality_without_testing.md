@@ -75,13 +75,14 @@ Modern software is complex, sure thing a developer develops his code on his loca
 
 #### Containerization
 
-Not all to long ago a mediocre developer would answer QA in all seriousness that a bug is not there because "It work's on my machine". Using tools like Docker to containerize the software makes sure that everybody uses the exact same thing. Developer may develop into a container even when the develop local, the build job will create the exact same docker image as the developer uses for his development but with the new code base. Now the QA does have the exact same thing as the developer. Sounds perfect but it helps us only so far as people are willing to learn to use these tools. People tend to be lazy so the excuse "It works on my machine" evolved into "It works in my container".
+Not all to long ago a mediocre developer would answer QA in all seriousness that a bug is not there because "It work's on my machine". Using tools like Docker to containerize the software makes sure that everybody uses the exact same thing. Developer may develop against  a container even when the developing locally, the build job will create the exact same container image as the developer uses for his development but with the new code base. Now the QA does have the exact same environment as the developer. Sounds perfect but it helps us only so far as people are willing to learn to use these tools. People tend to be lazy so the excuse "It works on my machine" evolved into "It works in my container".
 
 ### Source Code Management
 
-Since we work in teams, we need tools to collaborate with each other, Source Code Management tools like SVN, Mercurial or GIT are for sure the most important tools a developer can use. Since the feature set especially in GIT is huge, it is important that any person who works with code does know the tool very well. Also important for a successful collaboration is a strategy to manage the source code. There are a couple of good "best practise" branching models (e.g. Trunk-based, Git-Flow, …). The development team should decide together what is the best approach for their workflow and keep to that practise.
+Since we work in teams, we need tools to collaborate with each other, Source Code Management tools like SVN, Mercurial or GIT are for sure the most important tools a developer can use. Since the feature set especially in GIT is huge, it is important that any person who works with code does know the tool very well. Also important for a successful collaboration is a strategy to manage the source code. There are a couple of good "best practices" branching models (e.g. Trunk-based, Git-Flow, …). The development team should decide together what is the best approach for their workflow and keep to that practice.
 
-#### Stages
+#### Stages 
+<!-- -->
 
 To setup an environment means to display different states of the software lifecycle. Stages will help the team to determine, in which state the software is.
 
@@ -119,7 +120,7 @@ Or do you have variables like
 
 or methods with 400 lines of code where you have absolutely no clue what happens with an input and even less idea what the output of the method is?
 
-To write code is your craftmanship, don't treat this lightly. A chef will keep his knives always sharp and clean. A developer must do the same. The book Clean Code by Robert C. Martin must read, but more importantly has to understand and then use everybody who works with code. Get involved in meetups and discussion about clean code practises, your code should be reviewed, and you must take the feedback and learn from it. Clean Code and your mindset around it, has to evolve. As a rule of thumb, if you look at code you wrote 6 months ago and you wouldn't change a thing, then you are stuck in your personal development, which keeps you from being an awesome developer.
+To write code is your craftmanship, don't treat this lightly. A chef will keep his knives always sharp and clean. A developer must do the same. <!-- The book Clean Code by Robert C. Martin must read, but more importantly has to understand and then use everybody who works with code. -->Get involved in meetups and discussion about clean code practices, your code should be reviewed, and you must take the feedback and learn from it. Clean Code and your mindset around it, has to evolve. As a rule of thumb, if you look at code you wrote 6 months ago and you wouldn't change a thing, then you are stuck in your personal development, which keeps you from being an awesome developer.
 Plan your implementation with the SOLID principles in mind:
 
 * **S**ingle Responsibility Principle
@@ -135,3 +136,5 @@ And finally, if you learned nothing from the series and will take nothing away f
 ## Summary
 
 To come to an end, developing software has a lot to offer and it’s not all about code and configuration. To generate a good product requires a quality mindset on multiple levels. To say testing is our quality is wrong, and to late to begin with. Each step in a software lifecycle does need its quality assurance implemented in either a methodical or technical way.
+
+
