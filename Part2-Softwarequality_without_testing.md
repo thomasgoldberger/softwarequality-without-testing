@@ -2,7 +2,7 @@
 
 In the first part of this three part series we learned about the importance of a quality mindset or better said, a quality-first mindset, also we looked into our building block to create long lasting quality and defined that each individuum has the responsibility to form his own but also help to form others mindset.
 
-Today we go a bit deeper into the roles and their responsibility. Basically, is to say, that everybody is equally responsible, to generate and deliver as much quality as possible. The how will differs from role to role and from individuum to individuum.
+Today we go a bit deeper into the roles and their responsibility. Basically, is to say, that everybody is equally responsible, to generate and deliver as much quality as possible. The how will differ from role to role and from individuum to individuum.
 
 ## Quality depends on teamwork: The Quality Hopper
 
@@ -17,11 +17,11 @@ But first we want to introduce you to the quality hopper, which is merely a visu
 
 <span style="display:block;text-align:center">![Quality-hopper-Frame](images\Quality-hopper-theFrame.png)</span>
 
-We highlighted "The Team" and "Team Spirit" and we talked already about how important it is to have a good team spirit. We'll go now shortly into the typical roles of a team and their responsibility's regarding a quality-mindset.
+We highlighted "The Team" and "Team Spirit" and we talked about how important it is to have a good team spirit. We'll look into the typical roles in an agile team and their responsibility's forwards a quality-mindset.
 
 #### Stakeholder
 
-A stakeholder needs to know about his vision for the product he wants to see implemented, he should know what he wants or at least should have a good general idea. Optimal would be if the stakeholder has the skillset to communicate it to PM or the team, depending on the organization. We encounter situations where the vision and the requirements change almost daily, and the development team must make changes to their implementation accordingly. Yes, we do hope you work in an agile environment, but that behaviour is far from agile, that is plain and simple chaos.
+A stakeholder needs to know about his vision for the product he wants to see implemented, he should know what he wants or at least should have a good general idea. Optimal would be if the stakeholder has the skillset to communicate it to a PM or the team, depending on the organization. We encounter situations where the vision and the requirements change almost daily, and the development team must make changes to their implementation accordingly. Yes, we do hope you work in an agile environment, but that behaviour is far from agile, that is plain and simple chaos.
 If you encounter that kind of stakeholder, as a team you could provide the stakeholder with knowledge about agile development and agile mindset, hold workshops with the stakeholder to form a clear vision a roadmap and plan of action as well as a way to communicate with the team.
 Also, the stakeholder is responsible for:
 
@@ -31,47 +31,53 @@ Also, the stakeholder is responsible for:
 * Time
   * A realistic deadline based on a realistic estimation coming from the whole team (not only the Project Owner).
 * Market
-  * A stakeholder needs to know the market and adapt the vision and the requirements accordingly. Now the power of agile can be used for what it was intended, fast adaption to an everchanging market without generating chaos in the organisation
+  * A stakeholder needs to know the market and adapt the vision and the requirements accordingly. Now the power of agile can be used for what it was intended, fast adaption to an everchanging market without generating chaos in the organisation or in the development teams.
 * Steady communication with the team and to the end-user (over PR or Marketing).
 
 #### Project manager, Product Owner and Business Analyst (Business roles or BRs for simplicity of the article)
 
-As the link between the business-side and technical implementation the Business roles do have the responsibility to translate the stakeholder’s requirements into manageable but also implementable packages, therefor people in these roles do need the skillset to communicate with both sides of the development process. This role has the challenging task to manage expectations and communication of realistic timelines and delays of deadlines to the stakeholder. But also needs to work close with the dev-team by translating requirements from a visionary view or idea (Stakeholder) to implementable epics, user-stories and acceptance criteria. It is important, that these roles don't talk about a technical detail, but about the feature’s behaviour. BRs should only explain what a feature should do in certain situations. Based on that BRs should work with the dev team on a common understanding for epics and user-stories and define the acceptance criteria's accordingly.
-So, the responsibilities of these roles could be something like that:
+As the link between the business-side and technical implementation the Business roles do have the responsibility to translate the stakeholder’s requirements into manageable but also implementable packages, therefor people in these roles do need the skillset to communicate with both sides of the development process. This role has the challenging task to manage expectations and communication of realistic timelines and delays of deadlines to the stakeholder. But also needs to work close with the dev-team by translating requirements from a visionary view or idea (Stakeholder) to implementable epics, user-stories and acceptance criteria. These roles shouldn't talk about technical details, but about behaviour - how a feature should react in certain situations. Based on that BRs do have the responsibility to work with the development team on a common understanding for epics and user-stories, and also define acceptance criteria's accordingly.
+Responsibilities for these roles could be something like that:
 
 * Steady communication
   * Should make sure that a steady stream of communication is assured
-* Behaviour over technical Details
+* Provide a good picture about the behaviour
   * These roles have nothing to do with the implementation of a feature it shouldn't be necessary to explain an expert (development) how to implement something. It is more important that the "What to implement" is very clear communicated.
-* Accuracy
-  * Where is a story beginning, where should it end. What are the distinctions to a story? Acceptance criteria should be formulated clear, accurate and meaningful.
+* Define accurate stories
+  * Where does a story beginning, where should it end. What are the distinctions to a story? Acceptance criteria should be formulated clear, accurate, meaningful and in a common language which everybody in the organisation does understand.
 * Market
   * Even if the stakeholder knows the market, a BRs should know the market and even if it's just to challenge the requirements of the stakeholder. Challenging something is important, only that way we get the most out of a product.
 
 #### Developer
 
-A developer develops software obviously. But that also means a developer is the main source when it comes to make sure quality is as high as expected, especially the part where we talk about implementing the right software. Since people in this role, implement and develop the vision and ideas of a stakeholder, they need to understand perfectly well what it is they need to implement. In our experience this often proofs to be the main source of failing projects. Since communication is lacking clarity often features are implemented which don't deliver the expected output. A developer must ask question. He needs to use the platforms for grooming, refining and planning to get on the same page as the stakeholder and BRs. Only if the development-team has a full set of acceptance criteria's and full understanding of the business-side of a story, only than a full commitment should be and can be given. The reality often is different, the development-team is pushed to an early commitment, acceptance criteria's are often not well formulated and stories don't have a clear purpose, obviously that makes it hard to implement the right feature, meaning, that the idea and the vison of the stakeholder in not realized.
-Also challenges for a developer are, and we'll not go into details here since we will talk about this in detail in part three, things like versioning, automation of build-, deploy- and delivery-systems, framework selection, code-guideline coaching junior stuff in the art of clean coding and clean architecture, selecting the right architecture for the product and the right patterns to implementing new features. Finally, how to implement proper unit-tests during the development of features.
-So, the responsibilities of these roles could be something like that:
+A developer develops software, obviously. But that also means a developer is the main source when it comes to make sure quality is as high as expected, especially the part where we talk about implementing the right software.
+
+Since people in this role, implement the vision and ideas of a stakeholder, they need to understand perfectly well what it is they need to implement. In our experience this often proofs to be the main source of failing projects.
+
+Often communication is lacking clarity and features will be implemented which don't deliver the expected output. A developer must ask question. They need to use the platforms for grooming, refining and planning to get as much information as possible to get on the same page, as the stakeholder and BRs. Only if the development-team has a full set of acceptance criteria's and well enough understanding of the business-side of a story, only than a commitment should be, and can be given. The reality often is different, the development-team is pushed to an early commitment, acceptance criteria's are often non existing or ill formulated. Stories don't have a clear purpose, obviously that makes it hard to develop software right - the idea and the vison of the stakeholder is not implemented.
+
+Also challenges for developers are, topics like versioning, automation of build-, deploy- and delivery-systems, writing proper unit-tests, framework selection, code-guideline coaching junior stuff in the art of clean coding and clean architecture, selecting the right architecture for the product and the right patterns to implementing new features.
+
+Responsibilities for these roles could be something like that:
 
 * Deep Technical knowledge of environment and product depending on role in the development team and seniority level  
 * Domain knowledge
 * Team player
   * Software grows more complex, there is not one software project with commercial success which is implemented by one person alone the days of nerdy hackers who sit in a dark cellar and don't talk to anybody are over. Software-development is a team sport, there is no way around it.
 * Steady communication
-  * As every other role a developer also needs to provide steady communication. Where are issues expected or unexpected, what is the status of the product, resource problems, technical debt, medium to big refactoring needs - especially if the team must work with legacy code.
+  * As every other role a developer also needs to provide steady communication. Where are issues expected or unexpected, what is the status of the product, resource problems, technical debt, the need for refactoring.
 * Apply coding and architectural guidelines by
   * reviewing Code.
   * practicing clean code.
   * applying SOLID principals.
-  * using pair-programming as a tool to transfer knowledge and work on critical and high-risk changes and additions. 
+  * using pair-programming as a tool to transfer knowledge, work on critical and high-risk changes or additions.
 * Challenging Requirements and user stories
   * This is most important to get the user stories and acceptance criteria's, development-teams need to successfully implement features.
 * Implementing unit- and integration-tests simultaneous with the feature.
 
 ##### (Test) Automation Engineer, Quality Engineer
 
-A well-trained Quality Engineer (doesn't matter if manual or automation engineer), should bring a vast knowledge of quality and well establish quality mindset into his team. Test-planning, -design, -execution and implementation of automated tests is the daily business of a person working in QA, but before that the experience of a QA-Engineer can be used to setup a quality friendly organisation. Challenging Requirements and cooperate with stakeholders and BRs during defining user-stories and acceptance criteria's especially with the view for flaws in behavioural design during the early stages of a software lifecycle, are important skills which a QA-Engineer should have and put to use in a way that the whole team profits and learns from it.
+A well-trained Quality Engineer (doesn't matter if manual or automation engineer), should bring a vast knowledge of quality and well establish quality mindset into a team. Test-planning, -design, -execution and implementation of automated tests is the daily business of a person working in QA, but before that the experience of a QA-Engineer can be used to setup a quality friendly organisation. Challenging Requirements and cooperate with stakeholders and BRs during defining user-stories and acceptance criteria's especially with the view for flaws in behavioural design during the early stages of a software lifecycle, are important skills which a QA-Engineer should have and put to use in a way that the whole team profits and learns from it.
 
 QA-Engineer - manual testing supports the team with:
 
