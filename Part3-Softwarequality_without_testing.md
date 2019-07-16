@@ -110,7 +110,7 @@ To ensure code quality we do have a huge variety of tools. We will not go into t
 Since we talked about communication in the most part of the series, and how to get to a level of understanding we need to continue this in the code we write.
 Coding guidelines are mandatory, there is just no way that any developer will write code however he sees fit. This will make the code unsearchable, unreadable and adds complexity into the maintenance. It’s the common language we developer have and need to understand. Therefore, has each coding language it's predefined set of coding guidelines and are also integrated into their respective linters as well in static code-analysis tools like SonarQube, Fortify and co.
 
-#### Clean Code & Solid principals
+#### Clean Code
 
 Is your code clean? Are your methods and class as short as possible but also as readable as possible and are they responsible for one thing only?
 Or do you have variables like
@@ -119,14 +119,9 @@ Or do you have variables like
 
 or methods with 400 lines of code where you have absolutely no clue what happens with an input and even less idea what the output of the method is?
 
-To write code is your craftmanship, don't treat this lightly. A chef will keep his knives always sharp and clean. A developer must do the same. The book Clean Code by Robert C. Martin must read, but more importantly has to understand and then use everybody who works with code. Get involved in meetups and discussion about clean code practises, your code should be reviewed, and you must take the feedback and learn from it. Clean Code and your mindset around it, has to evolve. As a rule of thumb, if you look at code you wrote 6 months ago and you wouldn't change a thing, then you are stuck in your personal development, which keeps you from being an awesome developer.
-Plan your implementation with the SOLID principles in mind:
+To write code is your craftmanship, don't treat this lightly. A chef will keep his knives always sharp and clean. A developer must do the same.
 
-* **S**ingle Responsibility Principle
-* **O**pen – Close Principle
-* **L**iskov substitution Principle
-* **I**nterface segregation Principle
-* **D**ependency inversion Principle
+The book Clean Code by Robert C. Martin is a must read for every developer, but more importantly one has to understand and then use the knowledge provided by the book. Get involved in meetups and discussion about clean code practises, your code should be reviewed, and you must take the feedback (not personally) and learn from it. Clean Code and your mindset around it, has to evolve. As a rule of thumb, if you look at code you wrote 6 months ago and you wouldn't change a thing, then you are stuck in your personal development, which keeps you from being an awesome developer.
 
 And finally, if you learned nothing from the series and will take nothing away from it, think about one thing:
 
