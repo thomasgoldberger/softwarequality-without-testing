@@ -50,6 +50,7 @@ So, what is “quality”? Sales and delivery often use it as a buzzword, like *
 The definition of quality and software quality by ISTQB is the following:
 
 > **quality:** The degree to which a component, system or process meets specified requirements and/or user/customer needs and expectations.
+>
 > **software quality:** The totality of functionality and features of a software product that bear on its ability to satisfy stated or implied needs.
 
 So even the ISTQB refers to function and technical point of view of software quality. We, however, want to talk about the mindset. And therefore, it's important to define our understanding of “quality”.
