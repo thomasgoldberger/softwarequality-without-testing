@@ -4,7 +4,7 @@ In the first part of this three part series we learned about the importance of a
 
 The second part showed us that Quality needs people who can communicate, take and give feedback without making it personal. To form a quality mindset means to understand that every person in a team has his own responsibility regarding quality, which only ends only if the project is terminated. Quality means also to have a clarity in visions, ideas, requirements, and expectation.
 
-Today we'll talk about the different project types which we categories in two categories and about the technical implementation of quality.
+Today we'll talk about the different project types which we categorize in two categories and about the technical implementation of quality.
 
 ## The right choice: Project types
 
@@ -24,33 +24,33 @@ Quick, often fun, mostly timeboxed projects, where the developer tries a new tec
 
 #### Proof of Concept (PoC)
 
-As a rule of thumb, we go into a PoC with 8-12 person days, an it's most of the times one developer alone, who implements the PoC. Often there is no consideration of architectural concept no implementation of unit-test framework or the use of clean code principles. The focus for that kind of project is solely the proof that an idea could or could not work. 
+As a rule of thumb, we go into a PoC with 8-12 person days, an it's most of the times one developer alone, who implements the PoC. Often there is no consideration of architectural concept no implementation of unit-test framework or the use of clean code principles. The focus for that kind of project is solely to proof that an idea could or could not work.
 
 #### Prototype
 
-The PoC worked, awesome! Let’s implement a functional piece of software, which shows of the idea and might be pitched to as investor or stakeholder. Still we don't want to think too much about architecture or clean code or testing also we don't consider things like integration into existing systems or connecting database systems. Data which would be needed are mostly hardcoded or mocked. So, while prototyping the focus lies also time-based on the implementation of the idea in a presentable way, prototyping is mostly done in teams of 2-3 people.
+The PoC worked, awesome! Let’s implement a functional piece of software, which might be pitched to an investor or stakeholder. Still we don't want to think too much about architecture or clean code or testing also we don't consider things like integration into existing systems or connecting database systems. Data which would be needed are mostly hardcoded or mocked. So, while prototyping the focus lies also time-based on the implementation of the idea in a presentable way, prototyping is mostly done in teams of 2-3 people.
 
 #### Pilot
 
-A pilot does have, like the PoC and the Prototype, a defined ending which is time-based to around 1-3 months. Pilots are usually done in teams. Architecture, patterns and the integration into existing systems are a big part of it. If a successful pilot is planned to go productive, then things like unit-test, versioning, CI/CD, coding-guidelines and clean-code patterns are implemented and considered as well so that the transition from pilot to product in productive environment is as smooth as possible.
+A pilot does have, like the PoC and the Prototype, a defined ending which is time-based to around 1-3 months. Pilots are usually done in teams. Architecture, patterns and the integration into existing systems are a big part of it. If a successful pilot is planned to go productive, then things like unit-test, versioning, CI/CD, coding-guidelines and clean-code patterns are considered and implemented as well, so that the transition from pilot to product in productive environment is as smooth as possible.
 
 ### Project types to implement an idea
 
-Daily business for development teams is usually the implementation of new features in existing software. Within the project type for implanting ideas we differentiate between three kind of projects.
+Daily business for development teams is usually the implementation of new features in existing software. Within these project types for implementing ideas, we differentiate between three kind of projects.
 
 #### Legacy Project
 
 Projects which are running in productive systems, where new features are implemented will be the main projects in the carrier of a software developer. Is the product long running, then a developer will work with an existing code base, where refactoring and embedding of legacy code into new features, written in new technologies, will be the main task.
 
 Legacy Project's do have a high demand for mature quality mindset.
-Requirements or user-stories must be written very clearly and should consider all angles of the software, especially when the new feature will interact with the legacy part of the software.
+Requirements or user-stories must be written very clearly and should consider all angles of the product in development, especially when the new feature will interact with the legacy part of the software.
 
 Refactoring will be a big part of all legacy projects and can only be archived painless or with less pain, with a good test coverage (especially unit-tests and integration test) which will display regressions immediately. Therefor in most cases, the test coverage must be increased, before the actual refactoring can begin, which is time consuming, yes, but a necessity.
 
-This kind of projects should have a very high automation throughout the whole software lifecycle, integration, deployment, delivery, quality and in productive environment monitoring.
+This kind of projects should have a very high automation throughout the whole software lifecycle, integration,deployment, delivery, quality and in productive environment monitoring.
 Continuous Quality should be implemented with corresponding quality gates which break the build and deploy pipeline if the quality demanded is not matched.
 
-Since automation means no human interaction, a high automation guarantees a less errors in the different states of software lifecycle, which means higher quality.
+Since automation means no human interaction, a highly automated environment guarantees less errors in the different states of software lifecycle, which means higher quality.
 
 #### Green Field Project
 
@@ -61,25 +61,25 @@ The development-team decide where it'll go from there, what language they are us
 
 #### Minimal Viable Product (MVP)
 
-In an agile world we don't ship full developed software anymore, we ship features using DevOps and all the power of automation Continuous Integration, Deployment and Delivery gives us the ability to deliver multiple times a day to productive environment. An MVP is a new developed software either by a start-up (Green Field Project) or by an established company which shipped the first and most relevant business cases. A limited feature set to go to market as soon as possible, but with the promise of more features to come after the first version release.
+In an agile world we don't ship full developed software, we ship features using DevOps and all the power of automation and *Continuous Integration*, *Deployment* and *Delivery* gives us the ability to deliver multiple times a day to the productive environment. An MVP is a new developed software either by a start-up (Green Field Project) or by an established company which shipped the first and most relevant business cases. A limited feature set to go to market as soon as possible, but with the promise of more features to come after the first version release.
 
-The big advantage of working a project as an MVP is that the Business Unit can use the feedback of the end-user and build the an develop the software which is really needed. Quality wise, the same things are true as for Green Field Projects.
+The big advantage of working a project as an MVP is that the Business Unit can use the feedback of end-users and develop the product which is really needed. Quality wise, the same things are true as for Green Field Projects.
 
 ## Implementation of a Quality first approach
 
-Tools, tools, tools, our last and final chapter of this series will be about tools, that might help us secure the quality before we start even testing our code.
+Tools, tools, tools, our last and final chapter of this series will be about tools, that help us secure the quality before we start even testing our code.
 
 ### Environment
 
-Modern software is complex, sure thing a developer develops his code on his local machine; however, it is not efficient to integrate, build and deploy everything on a local machine. Therefor we need some overall understanding about CI/CD (not necessary DevOps) about staging and containerization. Tools are a double-edged sword, if you learn them they could help you make you more efficient push your quality to a new level and help you keep it there, but if you use these tools with no knowledge or only rudimentary knowledge this tools will make everything worse and will add a complexity to your system which you can't handle.
+Modern software is complex, sure thing a developer develops his code on his local machine; however, it is not efficient to integrate, build and deploy everything on a local machine. Therefor we need some overall understanding about CI/CD (not necessary DevOps) about staging and containerization. Tools are a double-edged sword, if you learn them they could help you make you more efficient push your quality to the next level and help you keep it there, but if you use these tools with no knowledge or only rudimentary knowledge this tools will make everything worse and will add a complexity to your system which can't be handle easily.
 
 #### Containerization
 
-Not all to long ago a mediocre developer would answer QA in all seriousness that a bug is not there because "It work's on my machine". Using tools like Docker to containerize the software makes sure that everybody uses the exact same thing. Developer may develop into a container even when the develop local, the build job will create the exact same docker image as the developer uses for his development but with the new code base. Now the QA does have the exact same thing as the developer. Sounds perfect but it helps us only so far as people are willing to learn to use these tools. People tend to be lazy so the excuse "It works on my machine" evolved into "It works in my container".
+Not all too long ago a mediocre developer would answer QA in all seriousness that a bug is not there because "Its works on my machine". Using tools like Docker to containerize the software makes sure that everybody uses the exact same environment. Developer develop into a container even when the develop local, the build job will create the exact same container image as the developer uses for the development but with the new code base. Now the QA does have the exact same thing as the developer. Sounds perfect, but it will help only so far. as people are willing to learn to use these tools. People tend to be lazy, so the excuse "It works on my machine" evolved into "It works in my container".
 
 ### Source Code Management
 
-Since we work in teams, we need tools to collaborate with each other, Source Code Management tools like SVN, Mercurial or GIT are for sure the most important tools a developer can use. Since the feature set especially in GIT is huge, it is important that any person who works with code does know the tool very well. Also important for a successful collaboration is a strategy to manage the source code. There are a couple of good "best practise" branching models (e.g. Trunk-based, Git-Flow, …). The development team should decide together what is the best approach for their workflow and keep to that practise.
+Since we work in teams, we need tools to collaborate with each other, Source Code Management tools like SVN, Mercurial or GIT are likely the more important tools a developer can use. The feature set in these tools and  especially in GIT is huge, it is important that any person who works with code does know the tool very well. Also important for a successful collaboration is a strategy to manage the source code. There are a couple of good *best practise* branching models (e.g. Trunk-based, Git-Flow, …). The development team should decide together what would be the best approach for their workflow and commit to that workflow and keep to it.
 
 #### Stages
 
@@ -87,7 +87,7 @@ To setup an environment means to display different states of the software lifecy
 
 ##### Development-Stage
 
-That stage should be the playground for a developer, after the integration from the developer’s local system, the development stage should be used as a first trial of the new implemented feature. It doesn't make sense to test UI- or any kind of Integration-Test since there will be all kind of non-stable features and configuration deployed.
+That stage should be the playground for a developer, after the integration from the developers local system, the development stage should be used as a first trial of the new implemented feature. It doesn't make sense to test UI- or any kind of Integration-Test since there will be all kind of non-stable features and configuration deployed.
 
 ##### Test-Stage
 
@@ -108,7 +108,7 @@ To ensure code quality we do have a huge variety of tools. We will not go into t
 #### Coding Guidelines
 
 Since we talked about communication in the most part of the series, and how to get to a level of understanding we need to continue this in the code we write.
-Coding guidelines are mandatory, there is just no way that any developer will write code however he sees fit. This will make the code unsearchable, unreadable and adds complexity into the maintenance. It’s the common language we developer have and need to understand. Therefore, has each coding language it's predefined set of coding guidelines and are also integrated into their respective linters as well in static code-analysis tools like SonarQube, Fortify and co.
+Coding guidelines are mandatory, there is just no way that any developer will write code however he sees fit. This will make the code unsearchable, unreadable and adds complexity into the maintenance or later on into refactoring. It’s the common language we developer have and need to understand. Therefore, has each coding language it's predefined set of coding guidelines and are also integrated into their respective linters as well in static code-analysis tools like SonarQube, Fortify and co.
 
 #### Clean Code
 
@@ -129,4 +129,4 @@ And finally, if you learned nothing from the series and will take nothing away f
 
 ## Summary
 
-To come to an end, developing software has a lot to offer and it’s not all about code and configuration. To generate a good product requires a quality mindset on multiple levels. To say testing is our quality is wrong, and to late to begin with. Each step in a software lifecycle does need its quality assurance implemented in either a methodical or technical way.
+To come to an end, developing software has a lot to offer and it’s not all about code and configuration. To generate a good product requires a quality mindset on multiple levels. To say testing is our quality is wrong,and too late to begin with. Each step in a software lifecycle does need its quality assurance implemented in either a methodical or technical way.
